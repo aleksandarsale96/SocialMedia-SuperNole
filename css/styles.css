@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=MonteCarlo&family=WindSong&display=swap");
+
+/*
+Author: webthemez.com
+Author URL: http://webthemez.com
+*/
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  background: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #64686d;
+  line-height: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: "Poppins";
+  color: #272727;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+#mainSection {
+  padding: 50px 0;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 950px;
+}
+
+#mainSection h1 {
+  color: rgb(238, 238, 238);
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+#mainSection h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 65px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+i {
+  position: relative;
+  vertical-align: text-bottom;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.mb35 {
+  margin-bottom: 35px;
+}
+
+.imagine {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+[role="table"] {
+  display: table;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 1px solid #2f2f2f;
+  border-top: 0;
+  box-shadow: 0 2px 20px rgb(67 142 255 / 85%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+[role="table"] > div[id] {
+  display: table-caption;
+  font-style: italic;
+}
+
+[role="table"] [role="row"] {
+  display: table-row;
+  cursor: default;
+}
+.gradient [role="row"]:hover {
+  background: #118fca;
+  color: #ffffff;
+  font-weight: 350;
+  letter-spacing: 0.015em;
+}
+@media screen and (max-width: 500px) {
+  [role="table"] [role="row"] span + span {
+    width: 28%;
+  }
+}
+
+[role="table"] [role="cell"],
+[role="table"] [role="columnheader"] {
+  display: table-cell;
+  padding: clamp(0.25em, 4vw, 1em);
+  width: 20em;
+}
+
+[role="table"] [role="columnheader"] {
+  background: #2f2f2f;
+  color: #fafafa;
+  border-bottom: 3px solid black;
+  font-weight: bold;
+  border-bottom: thin solid #3b3b3b;
+}
+
+[role="table"] h3 {
+  margin-top: 0;
+}
+
+.gradient {
+  background: transparent;
+  background: -moz-linear-gradient(top, rgb(44, 44, 44) 0%, #313131 100%);
+  background: -webkit-linear-gradient(top, #252525 0%, #353535 100%);
+  background: linear-gradient(to bottom, #414141 0%, #242424 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#8ed433',GradientType=0 );
+  border-radius: 0 0 6px 6px;
+}
+
+.tittleLead {
+  color: #fff;
+}
+
+.mainDiv {
+  height: auto;
+  background-color: #337ab7;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.socialMedia {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 120px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  background: #00000066;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 120px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: red;
+  -moz-osx-font-smoothing: grayscale;
+}
